@@ -1,0 +1,64 @@
+body{
+    background-color:bisque
+}
+#heading{
+    text-align: center;
+}
+#input1{
+    display: flex;
+    justify-content: center;
+}
+
+#li1 li{
+    padding:20px;
+    border: 2px solid black;
+    /* display: flex; */
+    margin: 5px;
+    /* justify-content: space-between; */
+    border-radius: 15px;
+    overflow: hidden;
+    font-family:cursive;
+    background-color: aliceblue;
+    /* position: relative; */
+    
+}
+.edit1{
+    background-color:rgb(66, 48, 184);
+    color:white;
+    border-radius: 20px;
+    padding: 5px 15px;
+    font-weight: 500;
+    position: relative;
+    left: 82vw;
+    
+    /* font-size: 15px; */
+}
+.delbtn{
+    background-color:rgb(66, 48, 184);
+    color:white;
+    border-radius: 20px;
+    padding: 5px 15px;
+    position: relative;
+    left: 83vw;
+
+}
+.edit1,.delbtn:hover{
+    cursor: pointer;
+}
+#in1{
+    border-radius: 6px;
+    padding: 10px 30px;
+    font-size: 15px;
+    font-weight: 500;
+    background-color: aliceblue;
+}
+#add1{
+    background-color:rgb(66, 48, 184);
+    color:white;
+    border-radius: 20px;
+    padding: 5px 15px;
+    margin-left: 5px;
+}
+#add1:hover{
+    cursor: pointer;
+}
